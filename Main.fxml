@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXSpinner?>
+<?import com.jfoenix.controls.JFXTabPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="473.0" prefWidth="602.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.MainController">
+   <children>
+      <JFXTabPane layoutX="205.0" layoutY="124.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <tabs>
+            <Tab fx:id="dashboardTab" text="Dashboard" />
+            <Tab fx:id="tableViewTab" text="Table View" />
+            <Tab fx:id="pieChartTab" text="Pie Chart" />
+         </tabs>
+      </JFXTabPane>
+      <JFXSpinner fx:id="loader" layoutX="276.0" layoutY="212.0" AnchorPane.bottomAnchor="211.0" AnchorPane.leftAnchor="276.0" AnchorPane.rightAnchor="276.0" AnchorPane.topAnchor="212.0" />
+   </children>
+</AnchorPane>
